@@ -5,7 +5,7 @@ const CursorTail = () => {
   const coords = useRef({ x: 0, y: 0 });
   const circlesRef = useRef([]);
 
-  const color = [
+  const colors = [
     "#ffb56b", "#fdaf69", "#f89d63", "#f59761", "#ef865e",
     "#ec805d", "#e36e5c", "#df685c", "#d5585c", "#d1525c",
     "#c5415d", "#c03b5d", "#b22c5e", "#ac265e", "#9c155f",
@@ -18,7 +18,7 @@ const CursorTail = () => {
     circles.forEach((circle, index) => {
       circle.x = 0;
       circle.y = 0;
-      circle.style.backgroundColor = color[index % color.length];
+      circle.style.backgroundColor = colors[index % colors.length];
     });
 
     const handleMouseMove = (e) => {
@@ -54,7 +54,7 @@ const CursorTail = () => {
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
-  }, [color]);
+  }, [colors]);
 
   return (
     <>
@@ -66,7 +66,7 @@ const CursorTail = () => {
         />
       ))}
     </>
-  ;
+  );
 };
 
 export default CursorTail;
