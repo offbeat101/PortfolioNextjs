@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/components/Cards/OneCard": ["./src/components/Cards/OneCard.js"]
+    }
+  }
+}
