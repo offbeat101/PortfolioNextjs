@@ -31,26 +31,20 @@ const CursorTail = () => {
     const animateCircles = () => {
       let { x, y } = coords.current;
 
-
-
-
       circles.forEach((circle, index) => {
         if (circle) {
           circle.style.left = `${x - 12}px`;
           circle.style.top = `${y - 12}px`;
           circle.style.transform = `scale(${(circles.length - index) / circles.length})`;
-        
-        
 
-        circle.x = x;
-        circle.y = y;
-        
+          circle.x = x;
+          circle.y = y;
 
-        const nextCircle = circles[index + 1] || circles[0];
-        x += (nextCircle.x - x) * 0.3;
-        y += (nextCircle.y - y) * 0.3;
-      }
-    });
+          const nextCircle = circles[index + 1] || circles[0];
+          x += (nextCircle.x - x) * 0.3;
+          y += (nextCircle.y - y) * 0.3;
+        }
+      });
 
       requestAnimationFrame(animateCircles);
     };
@@ -60,7 +54,7 @@ const CursorTail = () => {
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
-  }, []);
+  }, [colors]);
 
   return (
     <>
