@@ -39,7 +39,7 @@ const about = () => {
 								Introduction
 							</h1>
 							<p className=" font-medium  ">
-								I'm a dedicated & Motivated final year Computer Engineering Computer Engineering Student at IIIT Bhubaneswar.
+								I&apos;m a dedicated & motivated final year Computer Engineering student at IIIT Bhubaneswar.
 							</p>
 							<p className=" font-medium ">
 							Proficient in multiple programming languages and frameworks, with strong problem-solving abilities and a focus on efficiency. Passionate about data science and analytics, continually enhancing skills through practical projects and certifications. Eager to contribute to innovative and impactful software solutions.
@@ -48,13 +48,14 @@ const about = () => {
 							I thrive on turning complex challenges into elegant code and have the ability to create cohesive solutions out of seemingly incoherent things. 
 							</p>
 						</div>
-{/* 
-						your profile Image
-						<div className=" col-span-3 h-min rounded-2xl border-2 border-solid border-dark dark:border-light dark:bg-dark p-8 md:p-6 bg-light relative md:order-1 md:col-span-8 lg:col-span-4 ">
+						
+						{/* your profile Image */}
+						{/* Uncomment and ensure you have imported profilePhoto */}
+						{/* <div className=" col-span-3 h-min rounded-2xl border-2 border-solid border-dark dark:border-light dark:bg-dark p-8 md:p-6 bg-light relative md:order-1 md:col-span-8 lg:col-span-4 ">
 							<div className=" absolute top-0 -right-3 rounded-3xl h-[103%] w-[102%] bg-dark dark:bg-light -z-10" />
 							<FramerImage
 								src={profilePhoto}
-								alt="Yash Sapkal"
+								alt="Your Name"
 								className=" h-auto w-full rounded-2xl p-4 pb-0 bg-gradient-to-tr from-cyan-300 dark:from-dark via-orange-200 to-pink-300 dark:to-slate-700"
 								whileHover={{scale:1.05}}
 								transition={{duration:1.7, delay:0.3}}
@@ -63,8 +64,8 @@ const about = () => {
 							/>
 						</div> */}
 
-						{/* number which make impact
-						<div className=" col-span-2 flex flex-col items-end justify-between md:order-3 lg:col-span-8 lg:flex-row lg:items-center">
+						{/* number which make impact */}
+						{/* <div className=" col-span-2 flex flex-col items-end justify-between md:order-3 lg:col-span-8 lg:flex-row lg:items-center">
 							<div className=" flex flex-col items-end justify-center ">
 								<span className=" inline-block text-7xl font-bold dark:text-light/75 md:text-5xl sm:text-4xl "><AnimatedNumbers value={22}/>+</span>
 								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75  capitalize">projects</h1>
