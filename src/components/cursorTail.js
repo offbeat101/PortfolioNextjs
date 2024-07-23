@@ -66,7 +66,7 @@ const CursorTail = () => {
         />
       ))}
     </>
-  );
+  ,[colors]);
 };
 
 export default CursorTail;
