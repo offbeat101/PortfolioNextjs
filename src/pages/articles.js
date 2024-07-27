@@ -33,9 +33,9 @@ const articles = () => {
 
 					<ul className=" grid grid-cols-2 gap-16 lg:gap-8 md:gap-4 md:grid-cols-1 md:gap-y-16 ">
 						<FeatureArticle
-							title="The best of Toni Morrison."
-							summary="The best of Toni Morrison."
-							time="30 min read"
+							title="Why should you read Gita."
+							summary="The Bhagavad-Gita, while not a panacea for all problems or a guide to heavenly salvation, offers profound insights into self-realization, action, and detachment through its teachings on seeing action in inaction and vice versa. It helps to reflect on their lives and challenges, providing a framework for understanding oneself and achieving inner equilibrium, making it a timeless resource for personal growth and equality."
+							time="6 min read"
 							link=""
 							img={article4}
 						/>
