@@ -21,7 +21,7 @@ const Education = () => {
 					type="Bachelor of Technology" 
 					Course="Computer Engineering"
 					time="2025"
-					place="CGPA: 8.21/10"
+					place="CGPA: 8.33/10"
 					info="IIIT Bhubaneswar" />
 				<EducationDetails 
 					type="Higher Secondary Certificate"
