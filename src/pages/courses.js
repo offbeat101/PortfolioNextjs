@@ -294,6 +294,27 @@ const Courses = () => {
 
                             />
                         </div>
+                              <div className=" col-span-12 ">
+                            <SimpleTitleCard
+                            
+                                title="Postman API Fundamentals Student Expert"
+                                
+                                link="https://api.badgr.io/public/assertions/zyp70MA8Qbi2RJBRYT2Tfw?identity__email=yashsapkal100%40gmail.com"
+                                
+
+                            />
+                        </div>
+
+                              <div className=" col-span-12 ">
+                            <SimpleTitleCard
+                            
+                                title="Project-Based Learning: Build an AI Text Summarizer app"
+                                
+                                link="https://verify.skilljar.com/c/d8auvoinhmh6"
+                                
+
+                            />
+                        </div>
                         
             
             
