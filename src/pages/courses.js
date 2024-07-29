@@ -315,7 +315,7 @@ const Courses = () => {
 
                             />
                         </div>
-                            </div>
+                           
 
                               <div className=" col-span-12 ">
                             <SimpleTitleCard
@@ -327,7 +327,7 @@ const Courses = () => {
 
                             />
                         </div>
-                                        </div>
+
 
                               <div className=" col-span-12 ">
                             <SimpleTitleCard
