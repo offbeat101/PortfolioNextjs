@@ -315,6 +315,30 @@ const Courses = () => {
 
                             />
                         </div>
+                            </div>
+
+                              <div className=" col-span-12 ">
+                            <SimpleTitleCard
+                            
+                                title="Capstone: Applying Project Management in the Real World - Coursera"
+                                
+                                link="https://coursera.org/share/84a229f56fac415c7a565208fde0c494"
+                                
+
+                            />
+                        </div>
+                                        </div>
+
+                              <div className=" col-span-12 ">
+                            <SimpleTitleCard
+                            
+                                title="Google Project Management (Specialization Certificate) - Coursera"
+                                
+                                link="https://coursera.org/share/f5e31702b7e2b242b202e11234f3fcea"
+                                
+
+                            />
+                        </div>
                         
             
             
